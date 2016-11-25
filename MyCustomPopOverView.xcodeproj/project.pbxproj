@@ -15,6 +15,8 @@
 		270C70CE1CDC515B00BDC60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270C70CC1CDC515B00BDC60B /* LaunchScreen.storyboard */; };
 		270C70D91CDC515B00BDC60B /* MyCustomPopOverViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C70D81CDC515B00BDC60B /* MyCustomPopOverViewTests.m */; };
 		270C70E41CDC515B00BDC60B /* MyCustomPopOverViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C70E31CDC515B00BDC60B /* MyCustomPopOverViewUITests.m */; };
+		270C70F31CDC6F2A00BDC60B /* MyCustomPopOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C70F21CDC6F2A00BDC60B /* MyCustomPopOverView.m */; };
+		270C70F61CDC98B500BDC60B /* PopOverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C70F51CDC98B500BDC60B /* PopOverContainerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		270C70DF1CDC515B00BDC60B /* MyCustomPopOverViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCustomPopOverViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270C70E31CDC515B00BDC60B /* MyCustomPopOverViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCustomPopOverViewUITests.m; sourceTree = "<group>"; };
 		270C70E51CDC515B00BDC60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270C70F11CDC6F2A00BDC60B /* MyCustomPopOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomPopOverView.h; sourceTree = "<group>"; };
+		270C70F21CDC6F2A00BDC60B /* MyCustomPopOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomPopOverView.m; sourceTree = "<group>"; };
+		270C70F41CDC98B500BDC60B /* PopOverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverContainerView.h; sourceTree = "<group>"; };
+		270C70F51CDC98B500BDC60B /* PopOverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				270C70C41CDC515B00BDC60B /* ViewController.h */,
 				270C70C51CDC515B00BDC60B /* ViewController.m */,
 				270C70C71CDC515B00BDC60B /* Main.storyboard */,
+				270C70F11CDC6F2A00BDC60B /* MyCustomPopOverView.h */,
+				270C70F21CDC6F2A00BDC60B /* MyCustomPopOverView.m */,
+				270C70F41CDC98B500BDC60B /* PopOverContainerView.h */,
+				270C70F51CDC98B500BDC60B /* PopOverContainerView.m */,
 				270C70CA1CDC515B00BDC60B /* Assets.xcassets */,
 				270C70CC1CDC515B00BDC60B /* LaunchScreen.storyboard */,
 				270C70CF1CDC515B00BDC60B /* Info.plist */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				270C70C61CDC515B00BDC60B /* ViewController.m in Sources */,
+				270C70F61CDC98B500BDC60B /* PopOverContainerView.m in Sources */,
 				270C70C31CDC515B00BDC60B /* AppDelegate.m in Sources */,
 				270C70C01CDC515B00BDC60B /* main.m in Sources */,
+				270C70F31CDC6F2A00BDC60B /* MyCustomPopOverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
